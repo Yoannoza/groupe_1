@@ -39,6 +39,14 @@ class Array:
     def __getitem__(self, index: int):
         return self.value[index]
 
+    # def __getitem__(self, index):
+    # if isinstance(index, tuple):
+    #     result = self.value
+    #     for i in index:
+    #         result = result[i]
+    #     return result
+    # return self.value[index]
+
     def __contains__(self, item) -> bool:
         return item in self.value
 
