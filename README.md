@@ -108,5 +108,11 @@ Danas notre projet il ya deux applications. app1.py et app2.py.
 
 app1.py utilise le modele hf-internal-testing/tiny-stable-diffusion-torch qui est un modele de test , la generation de l'image est rapide mais il n'affiche rien de concret. 
 
+![Capture d'écran 2024-06-28 075055](https://github.com/Yoannoza/groupe_1/assets/158621305/0194c34d-9019-438c-ac57-3e50e159ebbc)
+
+
 app2.py utilise le modele CompVis/stable-diffusion-v1-4 est lui par contre un model complet qui genere une vrai image mais la generation dure a peu pret 30min.
+
+![Capture d'écran 2024-06-28 155530](https://github.com/Yoannoza/groupe_1/assets/158621305/dda1a090-58fe-44ed-8f79-33cf4ebeb608)
+
 
