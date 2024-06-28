@@ -60,6 +60,9 @@ Gestion des erreurs : L'application affiche des messages d'erreur en cas de prob
 Détails Techniques
 Modèle Utilisé
 Le modèle utilisé pour la génération d'images est Tiny-Stable-Diffusion-Torch de Hugging Face. Ce modèle est une version légère du modèle de diffusion stable, optimisée pour une génération rapide sur des machines avec des ressources limitées.
+![image](https://github.com/Yoannoza/groupe_1/assets/158621305/cfde9ecc-4fd1-4494-82d0-4cde0a891b6c)
+
+
 
 Bibliothèques Utilisées
 Tkinter : Utilisé pour créer l'interface graphique de l'application.
@@ -100,4 +103,10 @@ Configuration d'un spinner ttk.Progressbar pour indiquer le chargement.
 Ajout d'un label image_label pour afficher l'image générée.
 Ajout d'un label label_resultat pour afficher des messages à l'utilisateur.
 Lancement de la boucle principale de l'application avec debut.mainloop().
+
+Danas notre projet il ya deux applications. app1.py et app2.py.
+
+app1.py utilise le modele hf-internal-testing/tiny-stable-diffusion-torch qui est un modele de test , la generation de l'image est rapide mais il n'affiche rien de concret. 
+
+app2.py utilise le modele CompVis/stable-diffusion-v1-4 est lui par contre un model complet qui genere une vrai image mais la generation dure a peu pret 30min.
 
